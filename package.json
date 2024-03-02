@@ -1,0 +1,25 @@
+{
+  "name": "ghack-back",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.0.34",
+    "@prisma/client": "^5.10.2",
+    "@supabase/supabase-js": "^2.39.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "langchain": "^0.1.25",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.10.2"
+  },
+  "description": ""
+}
